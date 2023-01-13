@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier;
+    background-color: #9430bb;
+    color: aliceblue;
+}
+
+#navegador{
+    margin-top: 20px;
+}
+
+.promocional{
+    grid-area: prom;
+
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.navbar{
+    grid-area: naveg;
+
+    .nav-item:hover{
+        gap: 50px;
+        background-color:#dbce1142;
+        border-radius: 10px;
+    }
+}
+
+.user{
+    grid-area: user;
+}
+
+.foto__inspiracional{
+    grid-area: imagen;
+}
+
+.encabezado__titulo{
+    grid-area: textoIn;
+
+}
+

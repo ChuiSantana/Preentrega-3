@@ -1,0 +1,47 @@
+@media only screen and(min-width:768px){
+    #navegador{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.4fr 0.8fr 0.3fr;
+        grid-template-rows: 40px 2fr;
+        row-gap: 20px;
+        grid-template-areas:
+
+        "prom prom prom"
+        "logo none naveg"
+        ;
+    }
+
+    .promocional{
+        p{
+            width: 650px;
+            line-height: 13px;
+        }
+    }
+
+    .mi__logo{
+        margin: 8px 15px;
+        width: 150px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .user{
+        display: none;
+    }
+}
+
+#informacion__principal{
+    width: 100%;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    row-gap: 5px;
+    grid-template-areas:
+
+    "imagen textoIn"
+    ;
+}
